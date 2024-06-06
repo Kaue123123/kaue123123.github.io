@@ -1,0 +1,172 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Adicionado para ocupar toda a largura */
+    overflow-x: hidden;
+}
+
+#logodiv{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding: 0px;}
+
+#cabecario{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index:10;
+}
+
+#logo{
+    width: 96px;
+    position: fixed;
+    top: 10px;
+    left: 5%; /* Mudança para left */
+    transform: translateX(-50%);
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li{
+    float: left;
+    padding: 20px 10px; /* Adicionado px após valores de padding */
+}
+
+li:hover{
+    background-color: green;
+}
+
+#imagem_fundo1 {
+    background: url(img/fundo.jpg);
+    width: 100%;
+    height: 100vh; /* Usando viewport height para cobrir a tela verticalmente */
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo1 {
+    color: white;
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 1;
+}
+
+#subtitulo1 {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#acao1 {
+    color: white;
+    border: 2px yellow solid;
+    padding: 10px 20px; /* Removido os valores de padding desnecessários */
+}
+
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#imagem_fundo {
+    background: url("img/fundo.jpg");
+    height: 100vh; /* Usando viewport height para cobrir a tela verticalmente */
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 1;
+    text-shadow: 0px 0px 5px red; /* Corrigindo a sintaxe do text-shadow */
+}
+
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px; /* Removido os valores de padding desnecessários */
+}
+
+#selecao {
+    background-color: yellowgreen;
+}
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid black; /* Corrigindo a sintaxe da cor */
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration: none;
+}
+
+.icone {
+    width: 71px;
+}
+
+section {
+    padding: 20px;
+    float: left;
+    width: 100%; /* Adicionado para ocupar toda a largura */
+}
+
+.destaque {
+    background-color: #c5db47;
+    width: 100%;
+}
+
+.destaque2{
+    background-color: darkblue;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {  
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+}
+
+.dois {
+    width: 40%;
+}
+
+.quatro {
+    width: 15%;
+}
+
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
